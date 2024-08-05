@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+</head>
+<body>
+    <form action=""><h1>แบบฟอร์มรับสมัครนักศึกษา</h1>
+        <table border="2"width="600px"><tr>
+            <th>Info</th>
+            <th>Uer Input</th>
+        </tr>
+        <tr>
+            <td>กรอกรหัสนักศึกษา *</td>
+            <td><input type="text" name="std-num" id="" required></td>
+        </tr>
+        <tr>
+            <td>กรอกชื่อนักศึกษา </td>
+            <td><input type="text" name="std-name" id=""></td>
+        </tr>
+        <tr>
+            <td>กรอกอีเมล</td>
+            <td><input type="email" name="std-mail" id="" required></td>
+        </tr>
+        <tr>
+            <td>กรอกรหัสผ่าน</td>
+            <td><input type="password" name="std-pass" id=""></td>
+        </tr>
+        <tr>
+            <td>วันเดือนปีเกิด</td>
+            <td><input type="date" name="std-date" id=""></td>
+        </tr>
+        <tr>
+            <td>สีที่คุณชอบ</td>
+            <td><input type="color" name="std-color" id=""></td>
+        </tr>
+        <tr>
+            <td>ส่วนสูง</td>
+            <td><input type="number" name="std-height" id=""min = "30" max="400"></td>
+        </tr>
+        <tr>
+            <td>น้ำหนัก</td>
+            <td><input type="number" name="std-weight" id=""min = "20" max="200"></td>
+        </tr>
+        <tr>
+            <td>รูปภาพหน้าตรง :</td>
+            <td><input type="file" name="std-image" id=""></td>
+        </tr>
+        <tr>
+            <td>สาขาวิชา</td>
+            <td><input type="radio" name="major" id="INET">INET <br>
+                <input type="radio" name="major" id="INE">INE <br> 
+                <input type="radio" name="major" id="ITI">ITI <br>
+            </td>
+        </tr>
+        <tr>
+            <td>อาหารที่ชอบ</td>
+            <td><input type="checkbox" name="food1" id="" value="ham"> ham <br>
+                <input type="checkbox" name="food2" id="" value="rice"> rice <br>
+                <input type="checkbox" name="food3" id="" value="steak"> steak <br>
+            </td>
+        </tr>
+        <tr>
+            <td>ที่อยู่ :</td>
+            <td>
+                <textarea name="address" id="" cols="30" rows="5">ที่อยู่ปัจจุบัน</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>ชั้นปี :</td>
+            <td>
+                <select name="std-year" id="">
+                    <option value="1">ปี1</option>
+                    <option value="2">ปี2</option>
+                    <option value="3">ปี3</option>
+                    <option value="4">ปี4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>ยืนยันข้อมูล</td>
+            <td><input type="submit" value="submit">
+                <input type="reset" value="cancel"></td>
+            
+        </tr>
+            
+    </table>
+        
+    </form>
+    
+</body>
+</html>
